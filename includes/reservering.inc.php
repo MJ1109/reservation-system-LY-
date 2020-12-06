@@ -1,5 +1,4 @@
 <?php
-
 //Check if data fields are empty & generate error message if they are
 $errors = [];
 if ($firstName == "") {
@@ -20,4 +19,3 @@ if($email==""){
 if($floor==""){
     $errors['verdieping']='verdieping mag niet leeg zijn';
 }
-?>
